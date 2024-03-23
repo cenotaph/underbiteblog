@@ -1,0 +1,41 @@
+{
+  "name": "underbite",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "dev": "vite"
+  },
+  "dependencies": {
+    "@websanova/vue-auth": "^4.2.1",
+    "axios": "^1.6.8",
+    "bulma": "^1.0.0",
+    "core-js": "^3.36.1",
+    "moment": "^2.30.1",
+    "momentjs": "^2.0.0",
+    "vue": "^3.4.21",
+    "vue-axios": "^3.5.2",
+    "vue-base64-file-upload": "^1.0.4",
+    "vue-bulma": "^0.0.35",
+    "vue-multiselect": "^3.0.0-beta.3",
+    "vue-router": "^4.3.0",
+    "vue3-carousel": "^0.3.1",
+    "vue3-editor": "^0.1.1",
+    "vuex": "^4.1.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "@vue/cli-plugin-babel": "~5.0.8",
+    "@vue/cli-plugin-router": "~5.0.8",
+    "@vue/cli-service": "~5.0.8",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-vue": "^9.23.0",
+    "sass": "^1.72.0",
+    "sass-loader": "^14.1.1",
+    "vite": "^5.2.3",
+    "vue-template-compiler": "^2.7.16"
+  }
+}

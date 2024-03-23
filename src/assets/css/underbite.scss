@@ -1,0 +1,113 @@
+@charset "utf-8";
+
+$navbar-padding-vertical: 2rem;
+$navbar-height: 4rem;
+// $background: #333;
+// $light_base_color: #EEE;
+// $title-color: $light_base_color;
+// $subtitle-color: $light_base_color;
+// $link: $light_base_color;
+// $link-hover: #AAA;
+// $navbar-item-color: $light_base_color;
+// $navbar-item-hover-color: #414141;
+// $navbar-background-color : #231f20;
+// $footer-background-color: #414141;
+// $footer-padding: 1rem 1.5rem;
+$primary: #6aa84f;
+$link: #6aa84f;
+
+$secondary: #7c93a1;
+$body-font-size: 1.2rem;
+$family-primary: "Fira Sans";
+$bulma-link-text: $primary;
+
+@import 'bulma/bulma.scss';
+
+a { 
+  color: $primary;
+}
+.is-link {
+  background-color: $primary;
+}
+* {
+  font-family: "Fira Sans", sans-serif;
+}
+
+
+img.image_left {
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+}
+
+.record {
+  margin: 3rem 0;
+  border-bottom: 1px dotted $primary;
+  padding-bottom: 2rem;
+}
+
+span.tag {
+  cursor: pointer;
+  white-space: break-spaces;
+}
+
+.left_container {
+  padding-right: 3rem;
+}
+
+.search_wrapper {
+  margin: 3rem 0;
+}
+
+nav .blog-title {
+  padding: 1rem;
+}
+
+a.activetag {
+  font-weight: bold;
+  font-size: 1.4rem;
+  color: black;
+}
+
+.tag:not(body) {
+  white-space: break-spaces;
+}
+
+@media only screen and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  nav {
+    h2.title {
+      font-size: 1.25rem;
+    }
+  }
+  section.hero {
+    .hero-body {
+      padding: 1.5rem 0.75rem;
+      .container {
+        h3.subtitle {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+  section.section {
+    padding: 1.5rem 0.75rem;
+    .record {
+      margin: 1.5rem 0;
+      padding-bottom: 1rem;
+      h2.title {
+        font-size: 1.4rem;
+      }
+      p.content {
+        font-size: 1rem;
+      }
+    }
+  }
+}
+
+ul {
+  li {
+    ul {
+      list-style: disc;
+      margin-left: 1.5rem;
+    }
+  }
+}
